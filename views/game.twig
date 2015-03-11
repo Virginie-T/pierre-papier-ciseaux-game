@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css'>
+    <head>
+        <title>Rock vs Paper vs Scissors</title>
+    </head>
+    <body>
+        <div class='container'>
+
+            <form action='/result'>
+                <div id='player1' width='50%'>
+                <h1>Player 1, choose your weapon!</h1>
+                <select name='weapon1'>
+                    <option value='rock' id='rock' name='rock'>!ROCK!</option>
+                    <option value='paper' id='paper' name='paper' >!PAPER!</option>
+                    <option value='scissors' id='scissors' name='scissors'>SCISSORS!</option>
+                </select>
+            </div>
+            <div id='player2' width='50%'>
+            <h1>Player 2, choose your weapon!</h1>
+            <select name='weapon2'>
+                <option value='rock' id='rock' name='rock'>!ROCK!</option>
+                <option value='paper' id='paper' name='paper' >!PAPER!</option>
+                <option value='scissors' id='scissors' name='scissors'>SCISSORS!</option>
+            </select>
+            </div>
+            <button type='submit' class='btn btn-success'>Fight!</button>
+            </form>
+        </div>
+
+    </body>
+</html>
